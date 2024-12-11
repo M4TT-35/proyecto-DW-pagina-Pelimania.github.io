@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+header .nav-link:hover {
+    text-decoration: underline;
+}
+
+#hero {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+ol.list-group-numbered {
+    padding-left: 0;
+}
+.list-group-item {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    padding: 1rem;
+}
+.list-group-item:last-child {
+    border-bottom: none;
+}
+
+footer {
+    margin-top: 2rem;
+    text-align: center;
+}
+footer .nav-link:hover {
+    color: #ccc;
+}
